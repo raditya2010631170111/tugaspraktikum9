@@ -1,0 +1,54 @@
+name: uts
+description: A new Flutter project.
+
+publish_to: 'none' # private pack=unpublish pub.dev 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0' #flutter pub upgrade --major-versions #flutter pub outdated
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.3 #icons font
+  flutter_custom_clippers: ^2.0.0
+  provider: ^6.0.5
+  http: ^0.13.5
+  sharedpreference: ^0.0.1
+  sqflite: ^2.0.0+3
+  path: ^1.8.0
+  intl: ^0.17.0
+  android_alarm_manager: ^2.0.0
+  flutter_local_notifications: ^5.0.0+3
+  rxdart: ^0.26.0
+  lottie: ^1.2.1
+
+  google_fonts: ^2.1.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true #material icons font -use in material Icons class
+  
+  assets: #JPG, JPEG, PNG, GIF, WEBP
+    - assets/
+
+  fonts:
+  - family: Rubik
+    fonts:
+    - asset: assets/fonts/Rubik/Rubik-Light.ttf
+      weight: 100
+    - asset: assets/fonts/Rubik/Rubik-Medium.ttf
+      weight: 300
+    - asset: assets/fonts/Rubik/Rubik-Regular.ttf
+      weight: 500
+    - asset: assets/fonts/Rubik/Rubik-SemiBold.ttf
+      weight: 600
+    - asset: assets/fonts/Rubik/Rubik-Bold.ttf
+      weight: 700
+    - asset: assets/fonts/Rubik/Rubik-ExtraBold.ttf
+      weight: 900
